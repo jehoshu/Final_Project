@@ -2,7 +2,7 @@ pipeline {
     agent any
     parameters {
         string(name: 'REPO_TO_CLONE', defaultValue: 'https://github.com/jehoshu/Final_Project.git', description: 'Git repository URL')
-        string(name: 'BRANCH_TO_MERGE', defaultValue: 'master', description: 'Branch to merge')
+        string(name: 'BRANCH_TO_MERGE', defaultValue: 'main', description: 'Branch to merge')
     }
     stages {
         stage("Clone repository") {
