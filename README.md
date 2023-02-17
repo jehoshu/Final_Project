@@ -29,7 +29,7 @@ Notes
     and branch name from environment variables.
     - Make sure to use Github link only.
 
-Authors
+Author
     - Jehoshua Yefah
    
 
